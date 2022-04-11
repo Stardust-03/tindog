@@ -1,0 +1,147 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+ font-family: "Montserrat" , sans-serif;
+ font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+
+/* NAVIGATION BAR */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  /* width:60%; */
+  transform: rotate(25deg);
+  width: 60%;
+position: absolute;
+right:30%;
+}
+
+.iphone-img-div{
+  position:relative;
+}
+
+@media(max-width:1036px){
+  #title{
+    text-align: center;
+  }
+.title-image{
+  position:static;
+  transform: rotate(0);
+
+}
+}
+ /* features section */
+
+ #features{
+      /* padding-bottom: 80px; */
+      padding: 0 15% 7%;
+      background-color: #fff;
+      position: relative;
+      z-index: 1;
+
+     }
+
+.features-img{
+  color: #ef8172;
+   }
+
+ i:hover{
+   color: #ff4c68;
+ }
+
+.container{
+ text-align: center;
+ margin-top: 150px;
+}
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+  padding: 20px 0 10px;
+}
+
+p{
+  /* width: 70%; */
+  text-align: center;
+  /* margin-left: 25%; */
+  padding: 0 30px;
+  color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials{
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  }
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
